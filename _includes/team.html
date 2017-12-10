@@ -1,0 +1,42 @@
+    <!--
+		Team members section 
+-->  
+    <div id="team-members" class="section text-center">
+        <h2 class="text-center">Проекты</h2>
+
+
+
+{% include doms.html %}
+
+{% include bans.html %}
+
+        
+
+
+
+</div>
+    <!-- End Section Our Board Members --> 
+
+
+
+    <!-- Members Detail -->	
+    <div tabindex="-1" class="modal fade" id="view-bio" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+        		<div class="modal-body">	
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <div class="member-informations">
+                        <div class="dom-thumbnail pmd-z-depth">
+                            <img src="assets/img/team-1.jpg" alt="Jonson Root" class="img-responsive ">
+                        </div><!-- .dom-thumbnail -->
+                        <h2 class="pmd-card-title-text">Jonson Root</h2>
+                        <div class="designation">Business Advisor</div>
+                        <a href="mailto:luckylin@propeller.in" class="">jonsonroot@propeller.in</a>
+                    </div>                    
+                    <div class="member-biography text-left">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--End Members Detail -->

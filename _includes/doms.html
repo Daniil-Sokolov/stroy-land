@@ -1,0 +1,40 @@
+<div class="container"> 
+            <h3 class="text-center">Дома</h3>
+            <p class="lead text-center"></p>
+            <!-- Members List-->
+
+
+
+            
+
+            <div id="doms" class="owl-carousel pmd-card-carousel">
+                <!-- Members Card-->
+
+            {% for dom in site.doms %}
+                <div class="member-item">
+
+                	<div class="pmd-card pmd-z-depth pmd-card-overlay"> 
+                        <!-- Card media -->
+                        <div class="pmd-card-media pmd-card-media-overlay">
+							<a href="{{ dom.url | relative_url }}" class="btn pmd-btn-fab pmd-btn-flat pmd-btn-outline btn-default view-link"><i class="material-icons pmd-sm">add</i></a>
+                          	<a class="media-avatar" href="{{ dom.url | relative_url }}">
+                          		<img src="{{ dom.image_path }}"  alt="Adam Abraham - Business Advisor"/>
+                       		</a>
+                        </div>
+                        <!-- Card header -->
+                        <div class="pmd-card-title">
+                          	<h4 class="pmd-card-title-text">
+                          		<a href="{{ dom.url | relative_url }}" title="Adam Abraham - Business Advisor">{{ dom.title }}</a>
+                        	</h4>
+                          	<p class="pmd-card-subtitle-text"><b style="text-decoration: underline;">{{ dom.price }}</b></p>
+                        </div>
+                    </div>
+                    
+                </div><!-- End Members Card-->
+            {% endfor %}
+            </div>
+            
+
+
+            <!-- End Members List-->
+</div>
