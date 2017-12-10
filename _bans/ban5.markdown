@@ -4,7 +4,7 @@ title:  "Баня 5"
 price: "5 руб."
 date:   2017-12-09 18:33:25 +0300
 categories: jekyll update
-image_path: /assets/img/doma/dom1/4-4-5.jpg
+image_path: /stroy-land/assets/img/doma/dom1/4-4-5.jpg
 tag: "Дома"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

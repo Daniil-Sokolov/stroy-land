@@ -4,7 +4,7 @@ title:  "Баня 1"
 price: "1 руб."
 date:   2017-12-09 18:33:25 +0300
 categories: jekyll update
-image_path: /assets/img/doma/dom1/4-4-2.jpg
+image_path: /stroy-land/assets/img/doma/dom1/4-4-2.jpg
 images:
 - image_path: /assets/images/post1/jekk1.jpeg
   alt: "histat.ml-post1"
